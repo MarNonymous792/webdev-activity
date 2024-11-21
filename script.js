@@ -7,6 +7,7 @@ function change(state) {
   var navbar = document.getElementById("navbar");
   switch (state) {
     case "b":
+      navbar.style.color = "";
       body.style.backgroundColor = "";
       body.style.color = "";
       title.style.color = "";
@@ -19,6 +20,7 @@ function change(state) {
       image.src = "./car.webp";
       break;
     case "e":
+      navbar.style.color = "";
       body.style.backgroundColor = "pink";
       body.style.color = "#000";
       navbar.style.backgroundColor = "#DA1884";
@@ -33,13 +35,15 @@ function change(state) {
         break;
        
     case "o":
-      body.style.backgroundColor = "lightgrey";
+      body.style.backgroundColor = "#f0f0f0";
       title.style.color = "#000";
       body.style.color = "#000";
       body.classList.remove("elsie");
       body.classList.remove("orbitron");
       body.classList.add("arial")
       image.src = "./mattel.svg";
+      navbar.style.color = "#000";
+      navbar.style.backgroundColor = "lightgrey";
       contentTitle.innerHTML = "Inspiring Play, Empowering Imagination – Mattel";
       contentDesc.innerHTML = "At Mattel, we bring joy to every generation through the power of play. From timeless classics like Barbie and Hot Wheels to innovative toys and games, we create experiences that spark imagination, encourage creativity, and build lasting memories. Discover a world where fun meets inspiration, and every moment becomes extraordinary."
       break;
