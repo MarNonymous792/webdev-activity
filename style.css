@@ -1,0 +1,80 @@
+/* orbitron */
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* elsie */
+.elsie{
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Arial */
+.arial{
+    font-family: "Times New Romans", serif;
+    font-weight: 400;
+    font-style:normal;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #33437B;
+    color: #f1f1f1;
+}
+
+h1{
+    padding-left: 20px;
+    letter-spacing: 1rem;
+    color: #f1f1f1;
+}
+
+#navbar{
+    display: flex;
+    background-color: #213257;
+    color:white;
+    width: 100%;
+}
+
+#navbar button{
+    outline:none;
+    border: none;
+    padding:10px 30px;
+    font-size: 1.5rem;
+    background-color: inherit;
+    color:inherit
+}
+
+#navbar .orbitron:hover{
+    background-color: #6aa1bb ;
+}
+#navbar .elsie:hover{
+    background-color: #d4419d ;
+}
+#navbar .arial:hover{
+    background-color: #6F4E37; 
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+}
+
+.content{
+    width: 60%;
+    height: 100%;
+    color: inherit;
+    padding:20px;
+}
+
+.hero img{
+    height: 37.4rem;
+    width: 40%;    
+}
